@@ -209,6 +209,5 @@
   <script src="assets/validacoes.js"></script>
   <script src="assets/etapas.js"></script>
   <script src="assets/tema.js"></script>
-</body>
- 
+</body> 
 </html>
