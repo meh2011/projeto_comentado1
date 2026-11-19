@@ -1,3 +1,4 @@
+ 
 * {
     margin: 0;
     padding: 0;
@@ -386,29 +387,30 @@ footer {
  
  
 body.modo-claro {
-    background: radial-gradient(circle, #f8f9fc,  #f7f7f8, #7caef8c2);
+    background: radial-gradient(circle, #ffffff, #d2c8f5);
     color: #17243a;
 }
  
 .modo-claro .cabecalho {
-    background: radial-gradient(circle, #f7f7f7,  #f7f5f5, #a0c2f5);
-    border-bottom: 2px solid #c9a24d;
-    box-shadow: 0 15px 35px #17243a15;
+   background: radial-gradient(circle, #f0f2f7 ,#a8a9f891);
+    border-bottom: 3px solid #85662c;
+    box-shadow: 0 90px 90px #92a2ff65;
 }
  
 .modo-claro .cabecalho h1 {
-    color: #17345d;
-    text-shadow: 0 0 12px #c9a24d50;
+    color: #000e33;
+    text-shadow: 0 0 2px #04237af8;
+    font-size: 2.5rem;
 }
  
 .modo-claro .cabecalho p {
-    color: #58677c;
+    color: #001b44;
 }
  
 .modo-claro h2,
 .modo-claro h3,
 .modo-claro label {
-    color: #17345d;
+    color: #000000;
 }
  
 .modo-claro .obrigatorio {
@@ -416,29 +418,29 @@ body.modo-claro {
 }
  
 .modo-claro .alert {
-    background: radial-gradient(circle, #fefeff, #d3e3fa);
-    color: #243b5a;
-    border: 1px solid #c9a24d !important;
+    background: radial-gradient(circle, #ebe8f3, #bdccec);
+    color: #0e1b2c;
+    border: 1px solid #bda451 !important;
 }
  
 .modo-claro .alert strong,
 .modo-claro .alert a {
-    color: #9b7628;
+    color: #030463;
 }
  
 .modo-claro .secao {
-    background: radial-gradient(circle, #fefeff, #fcfdff);
-    border: 2px solid #9c7d3b80;
-    box-shadow: 0 8px 25px #17243a12;
+    background: radial-gradient(circle, #ebe8f3, #bdccec);
+    border: 1px solid #694b1280;
+    box-shadow: 0 8px 25px #01163bab;
 }
  
 .modo-claro .secao:hover {
-    box-shadow: 0 0 25px #c9a24d35;
+    box-shadow: 0 0 25px #01097735;
 }
  
 .modo-claro .card-header {
-    background: linear-gradient(-135deg, #fbfcfd, #d4dffa);
-    border-bottom: 3px solid #c9a24d;
+    background: radial-gradient(circle, #eedaaf, #c7a65e);
+    border-bottom: 2px solid #1d456b;
 }
  
 .modo-claro .card-header h2 {
@@ -449,17 +451,18 @@ body.modo-claro {
 .modo-claro .numero {
     background: linear-gradient(135deg, #c9a24d, #f7dba0);
     color: #17243a;
+     border-bottom: 3px solid #030302;  
 }
  
 .modo-claro .form-label {
-    color: #9b7628;
+    color: #000000;
 }
  
 .modo-claro .form-control,
 .modo-claro .form-select {
-    background-color: #ffffff;
+       background: radial-gradient(circle, #ecdbb6, #e0c07a);
     color: #17243a;
-    border: 1px solid #b8c5d8;
+    border: 1px solid #fdfae1;
 }
  
 .modo-claro .form-control:focus,
@@ -471,7 +474,7 @@ body.modo-claro {
 }
  
 .modo-claro .form-control::placeholder {
-    color: #8996aa;
+    color: #000000;
 }
  
 .modo-claro .form-select option {
@@ -485,7 +488,7 @@ body.modo-claro {
 }
  
 .modo-claro .form-check-input:checked {
-    background-color: #c9a24d;
+    background-color: #c94d4d;
     border-color: #c9a24d;
 }
  
@@ -501,11 +504,11 @@ body.modo-claro {
 .modo-claro .btn-primary:hover {
     background: linear-gradient(135deg, #f0d58e, #c9a24d);
     color: #17243a;
-    box-shadow: 0 5px 20px #c9a24d55;
+    box-shadow: 0 5px 20px #00000055;
 }
  
 .modo-claro .btn-outline-secondary {
-    border: 1px solid #c9a24d;
+    border: 1px solid #000000;
     color: #17345d;
 }
  
@@ -524,7 +527,7 @@ body.modo-claro {
 }
  
 .modo-claro a {
-    color: #9b7628;
+    color: #cf2b2b;
 }
  
 .modo-claro a:hover {
@@ -541,8 +544,8 @@ body.modo-claro {
 }
  
 .modo-claro .progresso-inscricao {
-    background: linear-gradient(145deg, #ffffff, #edf2fa);
-    border: 1px solid #c9a24d80;
+    background: radial-gradient(circle, #ebe8f3, #bdccec);
+    border: 1px solid #46391c80;
     box-shadow: 0 8px 25px #17243a12;
 }
  
@@ -566,12 +569,12 @@ body.modo-claro {
 }
  
 .modo-claro .progresso-fundo {
-    background: #dce5f1;
+    background: #d7d7d8;
     border: 1px solid #c9a24d60;
 }
  
 .modo-claro #barraProgresso {
-    background: linear-gradient(90deg, #9b7628, #c9a24d, #f7dba0);
+    background: linear-gradient(90deg, #b68f25, #c9a24d, #f7dba0);
     box-shadow: 0 0 12px #c9a24d60;
 }
  
@@ -603,7 +606,7 @@ body.modo-claro .btn-voltar:hover {
 }
  
 body.modo-claro footer {
-    color: #687990;
+    color: #191e24;
     border-top-color: #c6a45b;
 }
  
@@ -651,4 +654,5 @@ body * {
                 border-color 0.3s ease,
                 box-shadow 0.3s ease;
 }
+ 
  

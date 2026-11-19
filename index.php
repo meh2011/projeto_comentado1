@@ -61,7 +61,7 @@
               <div class="invalid-feedback">Informe um e-mail válido.</div>
             </div>
             <div class="col-md-4"><label for="telefone" class="form-label">WhatsApp do estudante (com DDD) <span class="obrigatorio">*</span></label><input type="tel" class="form-control" id="telefone" name="telefone" placeholder="(17) 99999-9999" maxlength="15" inputmode="numeric" required>
-              <div class="invalid-feedback">Informe um celular com DDD (11 dígitos).</div>
+              <div class="invalid-feedback">Informe um celular com DDD (11 dígitos)</div>
             </div>
           </div>
         </div>
@@ -81,6 +81,8 @@
             </div>
             <div class="col-md-3"><label for="cep" class="form-label">CEP <span class="obrigatorio">*</span></label><input class="form-control" id="cep" name="cep" placeholder="00000-000" maxlength="9" inputmode="numeric" required>
               <div class="invalid-feedback">Informe um CEP com 8 dígitos.</div>
+
+              <div id="cepStatus" class="small mt-1" aria-live="polite"></div>
             </div>
             <div class="col-md-7"><label for="logradouro" class="form-label">Logradouro <span class="obrigatorio">*</span></label><input class="form-control" id="logradouro" name="logradouro" maxlength="150" placeholder="Rua, avenida..." required>
               <div class="invalid-feedback">Informe o logradouro.</div>
@@ -204,10 +206,11 @@
         </div>
       </section>
     </form>
-    <footer class="text-center py-3">Galera Tech • By Apeti</footer>
+    <footer class="rodape text-center py-3">Galera Tech • By Apeti</footer>
   </main>
   <script src="assets/validacoes.js"></script>
   <script src="assets/etapas.js"></script>
   <script src="assets/tema.js"></script>
+  <script src="assets/mascaras.js"></script>
 </body> 
 </html>
